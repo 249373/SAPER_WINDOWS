@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp GameManager.cpp IntroController.cpp IntroModel.cpp IntroView.cpp MinesweeperBoard.cpp MinesweeperController.cpp MinesweeperView.cpp ScoreController.cpp ScoreModel.cpp ScoreView.cpp -o saper.exe -DSFML_STATIC -I C:\Users\konra\CLionProjects\SAPER_WINDOWS_SFML\SFML\include -L C:\Users\konra\CLionProjects\SAPER_WINDOWS_SFML\SFML\lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype
